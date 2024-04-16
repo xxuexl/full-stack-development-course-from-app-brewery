@@ -1,5 +1,17 @@
-h1 {
+body {
+  background-color: black;
+}
+
+.poster {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 25%;
   font-family: "Libre Baskerville", serif;
-  font-weight: 400;
-  font-style: normal;
+  color: white;
+  text-align: center;
+}
+
+.cat-img {
+  border: 5px solid white;
+  width: 100%;
 }

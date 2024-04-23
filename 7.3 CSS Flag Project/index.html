@@ -5,23 +5,44 @@
     <title>CSS Flag Project</title>
     <style>
       /* Write your CSS Code here */
+      /*Red rectangle*/
       .flag {
         background-color: #ce1126;
         width: 900px;
         height: 600px;
+        position: relative;
       }
 
+      /* Blue rectangle*/
       .flag > div {
         background-color: #002868;
         width: 100%;
         height: 300px;
+        position: absolute;
+        top: 150px;
       }
-
+      /*White circle*/
       .flag > div > div {
         width: 200px;
         height: 200px;
         background-color: white;
         border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 350px;
+      }
+
+      /*Paragraphs. They come with a default margin.*/
+      p {
+        font-size: 5rem;
+        text-align: center;
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+      .flag div div p {
+        color: black;
       }
     </style>
   </head>

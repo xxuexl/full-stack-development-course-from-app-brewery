@@ -12,10 +12,32 @@ body {
 
 h1 {
   font-size: 5rem;
+  display: block;
 }
 
-footer {
-  text-align: right;
+span {
   color: midnightblue;
 }
 
+.card {
+  display: inline-block;
+}
+
+.tile-image {
+  float: left;
+  size: 3rem;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+footer {
+  float: none;
+  text-align: right;
+  color: midnightblue;
+}

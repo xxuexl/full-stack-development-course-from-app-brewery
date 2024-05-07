@@ -68,4 +68,13 @@ footer {
   .card-title {
     font-size: 170%;
   }
+
+  .card-text {
+    font-size: 110%;
+    text-align: justify;
+  }
+  .right > p {
+    font-size: 110%;
+    text-align: justify;
+  }
 }

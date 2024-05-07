@@ -21,11 +21,14 @@ span {
 
 .card {
   display: inline-block;
+  width: 45%;
 }
 
 .tile-image {
   float: left;
   size: 3rem;
+  width: 300px;
+  margin-right: 3rem;
 }
 
 .left {
